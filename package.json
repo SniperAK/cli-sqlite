@@ -1,0 +1,31 @@
+{
+  "name": "cli-sqlite",
+  "version": "1.0.0",
+  "description": "Using sqlite on command line interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SniperAK/cli-sqlite.git"
+  },
+  "keywords": [
+    "cli-sqlite",
+    "cli",
+    "sqlite"
+  ],
+  "author": "Alex Kang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SniperAK/cli-sqlite/issues"
+  },
+  "homepage": "https://github.com/SniperAK/cli-sqlite#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.1.1",
+    "colors": "^1.4.0"
+  },
+  "bin":{
+    "sqlite": "./index.js"
+  }
+}
